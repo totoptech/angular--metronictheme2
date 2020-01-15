@@ -1,0 +1,118 @@
+:host {
+	::ng-deep {
+		ngb-tabset > .nav-tabs {
+			display: none;
+		}
+	}
+}
+
+.cap_div {
+	width: 100%;
+	text-align: center;
+}
+
+.main_cap_let {
+	font-family: Disket Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 108px;
+
+	color: #000000;
+}
+
+.sub_cap_let {
+	font-family: Disket Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	line-height: 37px;
+	color: #000000;
+}
+
+.detail_cap_let {
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.lb_cap_let {
+	font-family: Brutal Type;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 44px;
+
+	color: white;
+}
+
+.lb_def_let {
+	font-family: Georgia;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+
+	color: white;
+}
+
+.main_board_pan {
+	background-color: #5867dd;
+}
+.sub1_cap_let {
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 34px;
+	/* identical to box height */
+
+	color: #000000;
+}
+
+.check-group-box {
+	padding-left: 10%;
+	padding-top: 10px;
+	text-align: left;
+}
+
+.upload-panel-box {
+	padding: 10px;
+	padding-right: 10%;
+}
+
+.upload-panel-content {
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+
+	color: #000000;
+
+	text-align: left;
+}
+
+.upload-panel-board {
+	width: 100%;
+	height: 100px;
+	background-color: #c4c4c4;
+}
+
+.design_button {
+	text-align: center;
+	margin-top: 15px;
+	border-radius: 20px;
+}
+
+.sales_dash {
+	height: 650px;
+}
+
+.sales_dash_item {
+	width: 100%;
+	height: 300px;
+}

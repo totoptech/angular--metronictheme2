@@ -1,6 +1,8 @@
 // import login css
 @import "sass/pages/login/login-1";
 
+
+
 kt-auth, .kt-login {
 	height: 100%;
 
@@ -11,5 +13,42 @@ kt-auth, .kt-login {
 	// add extra right padding when displaying spinner in button
 	.kt-spinner {
 		padding-right: 3rem !important;
+	}
+	.kt-auth__logo {
+		top: 12px;
+		left: 30px;
+		background: #fff;
+		position: absolute;
+
+	}
+	.kt-auth__title {
+		text-align: center;
+		> h4 {
+			font-family: Disket Mono;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			color: #000000;
+			margin-top: 25px;
+		}
+		> h1 {
+			font-family: Disket Mono;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 96px;
+			line-height: 108px;
+			color: #000000;
+			margin-top: 10px;
+		}
+		> h3 {
+			font-family: Disket Mono;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 33px;
+			line-height: 37px;
+			color: #000000;
+			margin-top: 10px;
+		}
 	}
 }

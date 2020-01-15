@@ -10,10 +10,13 @@
 
 // Layout config
 @import "../../global/layout/config.scss";
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Quicksand|N&display=swap');
 
 // Login Base
 .kt-login.kt-login--v1 {
     // Aside
+    
+    
     .kt-login__aside {
         width: 605px;
         padding: 3rem 3.5rem;
@@ -23,12 +26,7 @@
         .kt-login__logo {
             display: flex;
         }
-
-        .kt-login__title {
-            color: #ffffff;
-            font-size: 2rem;
-            font-weight: 500;
-        }
+        
 
         .kt-login__subtitle {
             font-size: 1.2rem;
@@ -71,7 +69,8 @@
         .kt-login__head {
             font-size: 1rem;
             font-weight: 500;
-            text-align: right;
+            text-align: center;
+            
 
             .kt-login__signup-label {
                 color: kt-base-color(label, 2);
@@ -87,34 +86,45 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100%;
+            margin-top: 95px;
+            // height: 100%;
 
             // Form Wrapper
+            
             .kt-login__form {
-                width: 100%;
-                max-width: 450px;
-
+                .kt-login__subform{
+                    width: 320px;
+                }
                 .kt-login__title {
                     display: block;
                     text-align: center;
-                    margin-bottom: 5rem;
                     text-decoration: none;
-
                     > h3 {
-                        font-size: 2rem;
-                        color: #67666e;
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 30px;
+                        line-height: 41px;
+                        color: #000000;
+                    }
+                    > h4 {
+                        font-family: Quicksand;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #000000;
+                        margin-top: 27px;
                     }
                 }
-
                 // Form
                 .kt-form {
-                    margin: 4rem auto;
+                    margin: 2rem auto;
 
                     .form-group {
                         margin: 0;
                         padding: 0;
                         margin: 0 auto;
-
                         .form-control {
                             border: none;
                             height: 50px;
@@ -134,14 +144,18 @@
 
                 // Action
                 .kt-login__actions {
-                    display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    margin: 3rem 0;
-
-                    .kt-login__link-forgot {
-                        font-weight: 400;
-                        @include kt-link-color(kt-base-color(label, 2), kt-brand-color());
+                    margin: 10px 0;
+                    text-align: center;
+                    .kt-login__remember-forgot{
+                        display: flex;
+                        margin-bottom: 10px;
+                        .kt-login__link-forgot {
+                            font-weight: 400;
+                            @include kt-link-color(kt-base-color(label, 2), kt-brand-color());
+                            margin-left: auto;
+                        }    
                     }
 
                     .kt-login__btn-secondary,
@@ -151,9 +165,12 @@
                         height: 50px;
                         padding-left: 2.75rem;
                         padding-right: 2.75rem;
+                        margin: 10px 0;
                     }
                 }
-
+                .kt-login__account {
+                    text-align: center;
+                }
                 // Divider
                 .kt-login__divider {
                     margin: 1rem 0 2rem 0;

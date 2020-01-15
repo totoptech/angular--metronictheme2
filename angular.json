@@ -35,7 +35,8 @@
 				"node_modules/@fortawesome/fontawesome-free/css/all.min.css",
 				"src/assets/plugins/line-awesome/css/line-awesome.css",
 				"src/assets/plugins/flaticon/flaticon.css",
-				"src/assets/plugins/flaticon2/flaticon.css",
+        "src/assets/plugins/flaticon2/flaticon.css",
+        "src/assets/plugins/disket-mono/disket-mono.css",
 				"src/assets/sass/style.angular.scss"
             ],
             "scripts": [
