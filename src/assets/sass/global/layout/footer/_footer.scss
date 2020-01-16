@@ -147,7 +147,16 @@
 				}
 			}
 		}
-	}	
+	}
+
+	.kt-social-wrappwr {
+		display: flex;
+
+		li {
+			margin: 0px 10px;
+			list-style-type: none;
+		}
+	}
 }
 
 // Tablet and mobile mode
