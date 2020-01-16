@@ -31,7 +31,8 @@
 		}
 
 	  	.kt-footer__nav {
-	  		display: flex;
+			  display: flex;
+			  flex-direction: column;
 
 		  	.kt-footer__nav-section {
 				flex: 1;
@@ -84,6 +85,7 @@
     .kt-footer__bottom {
 		padding: 2rem 0; 
 		background-color: #181824;
+		// background-color: #C4C4C4;
 
 		.kt-footer__wrapper {
 			display: flex;  
@@ -93,16 +95,29 @@
 
 		.kt-footer__logo {
 			display: flex;   			
-			align-items: center;			
+			align-items: center;
+			color: white;
+			flex: 1;
+
+			a {
+				color: white;
+			}
+
+			.kt-auth__logo {
+				color: white;
+			}
 
 			.kt-footer__copyright {
 				margin: 0;
 				padding: 0 1.25rem 0 1rem;
 				font-size: 1rem;
 				font-weight: 400;
-				color: #6f7286;								
+				color: #6f7286;
+				flex: 1;
+				text-align: center;		
 
 				> a {
+					color: white;
 					transition: color 0.3s ease;
 
 					&:hover {

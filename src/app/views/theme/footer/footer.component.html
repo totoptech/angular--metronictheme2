@@ -3,48 +3,66 @@
 	<div class="kt-footer__top">
 		<div class="kt-container" [ngClass]="{'kt-container--fluid': fluid}">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-lg-3">
 					<div class="kt-footer__section">
-						<h3 class="kt-footer__title">About</h3>
-						<div class="kt-footer__content">
-							Whatever method you chosse,these nine will
-							make you re-think theway you craft healines
-							Why? Because they all have points in that are
-							worth from a point of view.
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="kt-footer__section">
-						<h3 class="kt-footer__title">Quick Links</h3>
+						<h3 class="kt-footer__title">Services</h3>
 						<div class="kt-footer__content">
 							<div class="kt-footer__nav">
 								<div class="kt-footer__nav-section">
-									<a href="javascript:;">General Reports</a>
-									<a href="javascript:;">Dashboart Widgets</a>
-									<a href="javascript:;">Custom Pages</a>
-								</div>
-								<div class="kt-footer__nav-section">
-									<a href="javascript:;">User Setting</a>
-									<a href="javascript:;">Custom Pages</a>
-									<a href="javascript:;">Intranet Settings</a>
+									<a href="javascript:;">Print-on-Demand</a>
+									<a href="javascript:;">Warehousing & Fulfillment</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-3">
 					<div class="kt-footer__section">
-						<h3 class="kt-footer__title">Get In Touch</h3>
+						<h3 class="kt-footer__title">Resources</h3>
 						<div class="kt-footer__content">
-							<form action="" class="kt-footer__subscribe">
-								<div class="input-group">
-									<input type="text" class="form-control" placeholder="Enter Your Email">
-									<div class="input-group-append">
-										<button class="btn btn-info" type="button">Join</button>
-									</div>
+							<div class="kt-footer__nav">
+								<div class="kt-footer__nav-section">
+									<a href="javascript:;">Shipping & Returns</a>
+									<a href="javascript:;">FAQ</a>
+									<a href="javascript:;">Blog</a>
 								</div>
-							</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="kt-footer__section">
+						<h3 class="kt-footer__title">Features</h3>
+						<div class="kt-footer__content">
+							<div class="kt-footer__nav">
+								<div class="kt-footer__nav-section">
+									<a href="javascript:;">Integrations</a>
+									<a href="javascript:;">Slaite App</a>
+									<a href="javascript:;">Profit Calculator</a>
+									<a href="javascript:;">Set-up Checklist</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="kt-footer__section">
+						<h3 class="kt-footer__title">Contact Us</h3>
+						<div class="kt-footer__content">
+							<div class="kt-footer__nav">
+								<div class="kt-footer__nav-section">
+									<a href="javascript:;">Phone:</a>
+									<p>xxx-xxx-xxxx</p>
+								</div>
+								<div class="kt-footer__nav-section">
+									<a href="javascript:;">Email:</a>
+									<p href="javascript:;">xxxxxxxxxxx</p>
+								</div>
+								<div class="kt-footer__nav-section">
+									<a href="javascript:;">Contact Hours</a>
+									<p href="javascript:;">Mon-Fri 9 AM to 5 PM</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -55,19 +73,30 @@
 		<div class="kt-container" [ngClass]="{'kt-container--fluid': fluid}">
 			<div class="kt-footer__wrapper">
 				<div class="kt-footer__logo">
-					<a href="/">
-						<img alt="Logo" src="./assets/media/logos/logo-2-sm.png">
+					<a href="/" target="_blank">
+						<!-- <img alt="Logo" src="./assets/media/logos/logo-2-sm.png"> -->
+						<div class="kt-auth__logo">
+							<svg width="40" height="50" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<rect width="39.7959" height="50" fill="url(#pattern0)"/>
+								<defs>
+								<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+								<use xlink:href="#image0" transform="translate(-0.00421728) scale(0.0165317 0.0131579)"/>
+								</pattern>
+								<image id="image0" width="61" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAABMCAYAAADeHL+NAAAD0ElEQVR4Ae2bv0srQRDHN4/XGCyCGJLCwkqCWKSJTSxS2wTUxhTp7GxSBPwHBHshlU1AsAgR8jckgqBgHYtEMF1ISi3z+OaxcJj97eXudu8Wwp17N5f5zMzuzU7W1GKxWJCYtT8x413iJtBx8Xri6bh4+m9YoE9PT6TX60m/PpPJkEKhQDY3N8n+/j7Z2dmRykhvwCsrjNbtdvGq1P5Uq9UFZGezmbHaxFjyl4Km0F5D4RlfX1/amlg9kZ2enpLz83MymUykEe29wWpogGBeODk5IZgjVJv10AB9eXkhR0dHyuBOQFMPNxoNpVB3Choev7y8pDbgHp2CBiXG+OPjIxcYF5yDBtTNzQ35/v7mgjsJjTDv9/vxggZtp9OJH/Td3R2Zz+dscO0cLkABpJhINZFve9NP1fO3tzemtqHl3kxtBJ3NZlMbHAZjNWsmslqtxg5Vg15roIvFogEeWyS0IgJbHXHvcDgU3/Dj6vb29o+e/3+mEPPMKw53WhPefvoggabWRMKeSqW0Pu/v71Q88kemp3O5nLbi0+lUWyYsASZ0NpvV1kelnKv90HUJsDKWz89P7ewHqSGypuFwyHpkpPq4ryyMadNWrVbJ3t6eqfiK3MHBAcnn82R3d9ef5/JccH19beRt1cWA6X2lUmnRbrfXU+wfDAaRhPYaC/AmxX7hKgtW9X5JFM+x7MQcpNOE0H789BKUoRCZqk0IjYeYLuCDgvV+jyq4FNr09eVVJshzlVCXQsPbNkxq1LCITNnkpgRtGzivTETHvDI0BFBos2FGh44ib2tBAxw7AEyKdDT8gjqKvK0NTUMEOXaU4TG2eY2be68kwJwOFNRfX1+Xn/F4TFBkj0qbzWZka2trVR2eNaLSj+Fkug7gvbeNwztoo5iA88Y1s4iwGg/h95ydnfmmhDXQfq7PrSr2+1Wit8bTvsW2q9svZAZKPE0tlBT7qSUkx4+PD8kd0bnMDG+TYn+r1YoOlUQTJnQ6nZaIrV7GLxwXFxfL/ZmiPVyrksH3cBcch4eHy42mJiqVSiVSqVSEoijg1+t14T1ru8jLoU1yXZ21MpalYTVmeMPCx8fHazN02A/mQmNjC36TcrFxoQHbbDZdZBbvAi6Xy06CCz0NN19dXRHMxi41KTRqTPf39y4xi8ObkmIBPxgMnPG41NMUHOMbCxEXZnRlaMDj/xwfHh5Iu92mtrDyqAUNwo2NjWX6iJry7e2tlSHPzb1VXYjFBTaqjkYj8vz8rCpGwsy9fw2tTBmhG7XDO0K6G6uSQBubzjLBxNOWOcxY3Vh6+h/dFPeoIxfK/QAAAABJRU5ErkJggg=="/>
+								</defs>
+							</svg>
+						</div>
 					</a>
 					<div class="kt-footer__copyright">
-						{{today | date:'yyyy'}}&nbsp;©&nbsp;
-						<a href="http://keenthemes.com/metronic" target="_blank">Keenthemes</a>
+						<!-- {{today | date:'yyyy'}}&nbsp;©&nbsp; -->
+						<a href="/" target="_blank">@Lorem ipsum</a>
 					</div>
 				</div>
-				<div class="kt-footer__menu">
+				<!-- <div class="kt-footer__menu">
 					<a href="http://keenthemes.com/metronic" target="_blank">Purchase Lisence</a>
 					<a href="http://keenthemes.com/metronic" target="_blank">Team</a>
 					<a href="http://keenthemes.com/metronic" target="_blank">Contact</a>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
