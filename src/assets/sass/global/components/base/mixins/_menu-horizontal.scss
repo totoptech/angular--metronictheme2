@@ -155,7 +155,8 @@
 	&.kt-menu__item--active {
 		> .kt-menu__link {
 			// link bg color
-			background-color: kt-get($item, link, self, bg-color, active);
+			// background-color: kt-get($item, link, self, bg-color, active);
+			color: kt-get($item, link, icon, font-color, active);
 
 			// link icon
 			.kt-menu__link-icon {

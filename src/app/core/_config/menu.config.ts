@@ -8,7 +8,7 @@ export class MenuConfig {
 					root: true,
 					alignment: 'left',
 					page: '/catalogue',
-					translate: 'Cagalogue',
+					translate: 'Catalogue',
 				},
 				{
 					title: 'My Collection',

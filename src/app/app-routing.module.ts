@@ -24,6 +24,10 @@ const routes: Routes = [
 				loadChildren: () => import('app/views/pages/welcome/welcome.module').then(m => m.WelcomeModule)
 			},
 			{
+				path: 'catalogue',
+				loadChildren: () => import('app/views/pages/browsing/browsing.module').then(m => m.BrowsingModule)
+			},
+			{
 				path: 'mail',
 				loadChildren: () => import('app/views/pages/apps/mail/mail.module').then(m => m.MailModule)
 			},
