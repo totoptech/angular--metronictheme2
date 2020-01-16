@@ -240,7 +240,7 @@
 	&.kt-menu__item--hover:not(.kt-menu__item--here):not(.kt-menu__item--active) {
 		> .kt-menu__link {
 			// link bg color
-			background-color: kt-get($item, link, self, bg-color, hover);
+			// background-color: kt-get($item, link, self, bg-color, hover);
 			
 			// link icon
 			.kt-menu__link-icon {

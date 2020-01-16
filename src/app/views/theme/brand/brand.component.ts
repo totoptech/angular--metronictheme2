@@ -5,7 +5,7 @@ import { LayoutConfigService, ToggleOptions } from '../../../core/_base/layout';
 import { HtmlClassService } from '../html-class.service';
 
 @Component({
-	selector: 'kt-brand',
+	selector: 'kt-logo',
 	templateUrl: './brand.component.html',
 })
 export class BrandComponent implements OnInit, AfterViewInit {

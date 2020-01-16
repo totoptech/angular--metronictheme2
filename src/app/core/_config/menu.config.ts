@@ -4,14 +4,14 @@ export class MenuConfig {
 			self: {},
 			items: [
 				{
-					title: 'Dashboards',
+					title: 'Catalogue',
 					root: true,
 					alignment: 'left',
-					page: '/dashboard',
-					translate: 'MENU.DASHBOARD',
+					page: '/catalogue',
+					translate: 'Cagalogue',
 				},
 				{
-					title: 'Components',
+					title: 'My Collection',
 					root: true,
 					alignment: 'left',
 					toggle: 'click',
@@ -274,7 +274,7 @@ export class MenuConfig {
 					]
 				},
 				{
-					title: 'Applications',
+					title: 'Orders',
 					root: true,
 					alignment: 'left',
 					toggle: 'click',
@@ -313,7 +313,7 @@ export class MenuConfig {
 					]
 				},
 				{
-					title: 'Custom',
+					title: 'FAQ',
 					root: true,
 					alignment: 'left',
 					toggle: 'click',
@@ -651,7 +651,7 @@ export class MenuConfig {
 						}
 					]
 				},
-				{section: 'Applications'},
+				{section: 'Orders'},
 				{
 					title: 'eCommerce',
 					bullet: 'dot',
@@ -685,7 +685,7 @@ export class MenuConfig {
 						}
 					]
 				},
-				{section: 'Custom'},
+				{section: 'FAQ'},
 				{
 					title: 'Error Pages',
 					root: true,
