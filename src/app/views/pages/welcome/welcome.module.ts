@@ -8,6 +8,8 @@ import { PartialsModule } from "../../partials/partials.module";
 import { WelcomeComponent } from "./welcome.component";
 
 import { MatCheckboxModule } from "@angular/material/checkbox";
+import { MatIconModule } from '@angular/material/icon';
+
 
 import { MatButtonModule } from "@angular/material";
 
@@ -17,6 +19,7 @@ import { MatButtonModule } from "@angular/material";
 		PartialsModule,
 		CoreModule,
 		MatCheckboxModule,
+		MatIconModule,
 		MatButtonModule,
 		RouterModule.forChild([
 			{

@@ -13,6 +13,7 @@
 	background-color: kt-get($kt-portlet, bg-color);
 	margin-bottom: kt-get($kt-portlet, bottom-space, desktop);
 
+    border: 2px solid #ccc;
 	// Global white content mode
 	.kt-page-content-white & {
 		box-shadow: $kt-elevate-shadow-2;
