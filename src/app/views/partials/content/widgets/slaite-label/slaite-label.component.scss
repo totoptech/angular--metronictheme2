@@ -1,0 +1,52 @@
+$slate-color__primary: #000;
+$slate-color__gray: #C4C4C4;
+$slate-color__blue: #0095E9;
+$slate-color__danger: rgba(255, 153, 153, 1);
+
+.slate-label__header {
+    font-size: xx-large;
+}
+
+.slate-label__title {
+    font-size: x-large;
+}
+
+.slate-label__para {
+    font-size: large;
+}
+
+.slate-label__content {
+    font-size: small;
+}
+
+.slate-label__primary {
+	color: $slate-color__primary;
+}
+
+.slate-label__gray {
+	color: $slate-color__gray;
+}
+
+.slate-label__blue {
+	color: $slate-color__blue;
+}
+
+.slate-label__danger {
+	color: $slate-color__danger;
+}
+
+.slate-label__400 {
+	font-weight: 400;
+}
+
+.slate-label__500 {
+	font-weight: 500;
+}
+
+.slate-label__600 {
+	font-weight: 600;
+}
+
+.slate-label__700 {
+	font-weight: 700;
+}
