@@ -7,8 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ProductCategoryViewComponent implements OnInit {
 
-	@Input() imgSrc: string;
-	@Input() productCatetory: string;
+	@Input() imgSrc: string;				// image link as string
+	@Input() productCatetory: string;		// category name
   constructor() { }
 
   ngOnInit() {

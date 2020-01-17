@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'kt-product-detail-view',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-detail-view.component.scss']
 })
 export class ProductDetailViewComponent implements OnInit {
+
+	@Input() imgSrc: string;			// image link as string
+	@Input() label: string;				// product full name as string
+	@Input() startingPrice: string;		// product starting price as string
+	@Input() availableSizes: string[];  // product available sizes as string array
+	@Input() colors: string[];			// available colors as string array
+	@Input() serial: string;			// product serial number
 
   constructor() { }
 

@@ -180,12 +180,10 @@ export class BrowsingComponent implements OnInit {
 	  this.dataSource.data = database.initialData();
 	  this.category_list = [
 		"Men's Clothing",
-		"Men's Clothing",
-		"Men's Clothing",
-		"Men's Clothing",
-		"Men's Clothing",
-		"Men's Clothing",
-		"Men's Clothing",
+		"Women's Clothing",
+		"Team Wear",
+		"Hats",
+		"Accessories",
 	  ]
   }
   treeControl: FlatTreeControl<DynamicFlatNode>;
