@@ -14,6 +14,9 @@ import { Widget14Component } from './widget14/widget14.component';
 import { Widget26Component } from './widget26/widget26.component';
 import { Timeline2Component } from './timeline2/timeline2.component';
 
+// Slaite Components
+import { SlaiteLabelComponent } from './slaite-label/slaite-label.component';
+
 @NgModule({
 	declarations: [
 		DataTableComponent,
@@ -25,6 +28,9 @@ import { Timeline2Component } from './timeline2/timeline2.component';
 		Widget14Component,
 		Widget26Component,
 		Timeline2Component,
+
+		// Slait Label Component
+		SlaiteLabelComponent
 	],
 	exports: [
 		DataTableComponent,
@@ -36,6 +42,7 @@ import { Timeline2Component } from './timeline2/timeline2.component';
 		Widget14Component,
 		Widget26Component,
 		Timeline2Component,
+		SlaiteLabelComponent
 	],
 	imports: [
 		CommonModule,
