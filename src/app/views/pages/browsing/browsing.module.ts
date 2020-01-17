@@ -6,9 +6,10 @@ import {MatTreeModule} from '@angular/material/tree';
 import {MatIconModule} from '@angular/material/icon';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 
+import { PartialsModule } from "../../partials/partials.module";
 import { BrowsingComponent } from './browsing.component';
-import { 
-  MatExpansionModule, 
+import {
+  MatExpansionModule,
   MatButtonModule,
 } from '@angular/material';
 
@@ -20,7 +21,8 @@ import {
     MatButtonModule,
     CdkTreeModule,
     MatTreeModule,
-    MatIconModule,
+	MatIconModule,
+	PartialsModule,
     MatProgressBarModule,
     RouterModule.forChild([
 			{
