@@ -62,7 +62,8 @@
 	.slaite-main-search-wrapper {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: space-between;
+		padding: 12px 0px;
 
 		// Search
 		.kt-quick-search {
@@ -162,6 +163,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: safe;
+		padding: 12px 0px;
 		// Search
 		.kt-quick-search {
 			display: none;

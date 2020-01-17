@@ -17,6 +17,10 @@ import { Timeline2Component } from './timeline2/timeline2.component';
 // Slaite Components
 import { SlaiteLabelComponent } from './slaite-label/slaite-label.component';
 import { SlaiteSearchComponent } from './slaite-search/slaite-search.component';
+import { ProductWrapperDefaultComponent } from './product-wrapper-default/product-wrapper-default.component';
+import { ProductCategoryViewComponent } from './product-category-view/product-category-view.component';
+import { ProductShapeViewComponent } from './product-shape-view/product-shape-view.component';
+import { ProductDetailViewComponent } from './product-detail-view/product-detail-view.component';
 
 @NgModule({
 	declarations: [
@@ -30,10 +34,13 @@ import { SlaiteSearchComponent } from './slaite-search/slaite-search.component';
 		Widget26Component,
 		Timeline2Component,
 
-		// Slait Label Component
+		// Declare Slaite Components
 		SlaiteLabelComponent,
-
-		SlaiteSearchComponent
+		SlaiteSearchComponent,
+		ProductWrapperDefaultComponent,
+		ProductCategoryViewComponent,
+		ProductShapeViewComponent,
+		ProductDetailViewComponent
 	],
 	exports: [
 		DataTableComponent,
@@ -45,7 +52,11 @@ import { SlaiteSearchComponent } from './slaite-search/slaite-search.component';
 		Widget14Component,
 		Widget26Component,
 		Timeline2Component,
-		SlaiteLabelComponent
+		// Exports Slaite Components
+		SlaiteLabelComponent,
+		ProductCategoryViewComponent,
+		ProductShapeViewComponent,
+		ProductDetailViewComponent
 	],
 	imports: [
 		CommonModule,

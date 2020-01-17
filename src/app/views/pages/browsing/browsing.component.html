@@ -1,6 +1,6 @@
 <div class="d-flex row browsing-wrapper ">
     <!-- Expanding Menu on the Left -->
-    <div class="col-lg-4">
+    <div class="col-lg-4 slaite-product-menu--wrapper">
         <!-- {{dataSource.rootLevelNodes}} -->
         <mat-accordion>
             <mat-expansion-panel *ngFor="let tag of rootLevelNodes">
@@ -41,11 +41,13 @@
           </mat-tree> -->
     </div>
     <!-- Products Container with Search Box -->
-    <div class="col-lg-8">
-		Here is your search bod with all the categories
+    <div class="col-lg-8 d-flex flex-column">
 		<div class="slaite-main-search-wrapper">
-			<kt-slaite-label>hello</kt-slaite-label>
+			<kt-slaite-label [param]='{text: "Hello"}'></kt-slaite-label>
 			<kt-search-default></kt-search-default>
+		</div>
+		<div class="kt-product-wrapper__default">
+			<kt-product-category-view *ngFor='let product_catetory of category_list'  [imgSrc]='"assets/media/bg/bg-1.jpg"' [productCatetory]='product_catetory' ></kt-product-category-view>
 		</div>
     </div>
 </div>

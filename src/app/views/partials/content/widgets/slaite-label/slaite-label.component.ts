@@ -29,6 +29,14 @@ export class SlaiteLabelComponent implements OnInit {
 				color: "primary",
 				textClass: "",
 				weight: "400",
+			};
+		} else {
+			this.param = {
+				text: this.param.text?this.param.text:"Label Component",
+				size: this.param.size?this.param.size:"header",
+				color: this.param.color?this.param.color:"primary",
+				textClass: this.param.textClass?this.param.textClass:"",
+				weight: this.param.weight?this.param.weight:"400",
 			}
 		}
 
@@ -38,25 +46,22 @@ export class SlaiteLabelComponent implements OnInit {
 		// Slaite Label size class name
 		let sizeClass: string = "";
 		sizeClass = classPrefix + this.param.size;
-		console.log("label size:", sizeClass);
 
 		// Slaite Label color class name
 		let colorClass: string = "";
 		colorClass = classPrefix + this.param.color;
-		console.log("label color:", colorClass);
 
-		this.className = this.param.textClass;
+		if(this.param.textClass != "")
+			this.className = this.param.textClass + " ";
+		else this.className = "";
 
 		// Slaite Label color class name
 		let fontWeightClass: string = "";
 		fontWeightClass = classPrefix + this.param.weight;
-		console.log("label font weight:", fontWeightClass);
 
 		// Combine Classes
-		this.className += sizeClass + " " + colorClass + " " + fontWeightClass;
+		this.className += sizeClass + " " + colorClass + " " + fontWeightClass + " kt-slaite-label__padding";
 
-		let element = document.getElementById('slaite-label');
-		element.className = this.className;
 	}
 
 }

@@ -1,0 +1,18 @@
+.kt-product_category--view {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	border: 1px solid #C4C4C4;
+	cursor: pointer;
+    margin: 4px;
+}
+
+.kt-product_category--image {
+	width: 100%;
+	background-color: #C4C4C4;;
+}
+
+.kt-product_category--text {
+	background-color: white;
+	max-height: 47px;
+}

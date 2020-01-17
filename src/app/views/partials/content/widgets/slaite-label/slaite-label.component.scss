@@ -3,6 +3,11 @@ $slate-color__gray: #C4C4C4;
 $slate-color__blue: #0095E9;
 $slate-color__danger: rgba(255, 153, 153, 1);
 
+.kt-slaite-label__padding {
+    margin: 0px;
+    padding: 4px 4px;
+}
+
 .slate-label__header {
     font-size: xx-large;
 }

@@ -2,3 +2,17 @@
 .browsing-wrapper {
     padding: 40px 20px;
 }
+
+// Tablet and mobile mode (1024px and bellow)
+@media screen and (max-width: 1024px){
+
+	.slaite-product-menu--wrapper {
+		margin-top: 12px;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.slaite-product-menu--wrapper {
+		margin-top: 64px;
+	}
+}

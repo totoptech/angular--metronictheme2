@@ -9,7 +9,7 @@
 body {
 	background: $kt-page-body-bg-color;
 
-	// Container 
+	// Container
 	.kt-container {
 		.kt-container {
 			width: 100%;
@@ -19,7 +19,7 @@ body {
 
 // Desktop(1024px and above)
 @include kt-desktop() {
-	// Container 
+	// Container
 	.kt-container {
 		padding: 0 kt-get($kt-page-padding, desktop);
 	}
@@ -29,6 +29,12 @@ body {
 		> .kt-container {
 			padding-right: 0 !important;
 		}
+	}
+
+	// Slaite Products Wrapper Default
+	.kt-product-wrapper__default {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
@@ -67,5 +73,11 @@ body {
 		.kt-header-mobile--fixed & {
 			padding-top: kt-get($kt-header-config, base, mobile, self, default, height);
 		}
+	}
+
+	// Slaite Products Wrapper Default
+	.kt-product-wrapper__default {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
 	}
 }
