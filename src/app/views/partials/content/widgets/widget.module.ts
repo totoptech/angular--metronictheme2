@@ -16,6 +16,7 @@ import { Timeline2Component } from './timeline2/timeline2.component';
 
 // Slaite Components
 import { SlaiteLabelComponent } from './slaite-label/slaite-label.component';
+import { SlaiteSearchComponent } from './slaite-search/slaite-search.component';
 
 @NgModule({
 	declarations: [
@@ -30,7 +31,9 @@ import { SlaiteLabelComponent } from './slaite-label/slaite-label.component';
 		Timeline2Component,
 
 		// Slait Label Component
-		SlaiteLabelComponent
+		SlaiteLabelComponent,
+
+		SlaiteSearchComponent
 	],
 	exports: [
 		DataTableComponent,
