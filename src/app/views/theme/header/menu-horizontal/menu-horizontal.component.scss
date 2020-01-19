@@ -4,4 +4,13 @@
 	.kt-header-menu-wrapper {
 		height: 100%;
 	}
+
+	.kt-slaite__header {
+		margin-right: 10px;
+	}
+
+	.kt-auth__logo a {
+		display: flex;
+		flex-direction: row;
+	}
 }
