@@ -42,5 +42,8 @@
 }
 
 .kt-product-select__image {
-	border: 1px solid #ccc;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

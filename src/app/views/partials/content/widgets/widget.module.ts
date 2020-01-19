@@ -23,6 +23,7 @@ import { ProductShapeViewComponent } from './product-shape-view/product-shape-vi
 import { ProductDetailViewComponent } from './product-detail-view/product-detail-view.component';
 import { ProductColorComponent } from './product-color/product-color.component';
 import { ProductSelectBoxComponent } from './product-select-box/product-select-box.component';
+import { ProductDetailsRightComponent } from './product-details-right/product-details-right.component';
 
 @NgModule({
 	declarations: [
@@ -44,7 +45,8 @@ import { ProductSelectBoxComponent } from './product-select-box/product-select-b
 		ProductShapeViewComponent,
 		ProductDetailViewComponent,
 		ProductColorComponent,
-		ProductSelectBoxComponent
+		ProductSelectBoxComponent,
+		ProductDetailsRightComponent
 	],
 	exports: [
 		DataTableComponent,
@@ -61,7 +63,8 @@ import { ProductSelectBoxComponent } from './product-select-box/product-select-b
 		ProductCategoryViewComponent,
 		ProductShapeViewComponent,
 		ProductDetailViewComponent,
-		ProductSelectBoxComponent
+		ProductSelectBoxComponent,
+		ProductDetailsRightComponent
 	],
 	imports: [
 		CommonModule,
