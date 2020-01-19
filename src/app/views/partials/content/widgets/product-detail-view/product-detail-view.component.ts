@@ -14,6 +14,9 @@ export class ProductDetailViewComponent implements OnInit {
 	@Input() colors: string[];			// available colors as string array
 	@Input() serial: string;			// product serial number
 
+	gotoDetails($event) {
+
+	}
   constructor() { }
 
   ngOnInit() {
