@@ -4,5 +4,24 @@
 }
 
 .kt-slaite-margin-top__8 {
-	margin: 8px 0px;
+	margin-top: 8px;
+}
+
+.kt-slaite-margin-top__16 {
+	margin-top: 16px;
+}
+
+.kt-slaite-product-details__color--wrapper {
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+}
+
+.kt-slaite-size__wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.kt-slaite-product-details__size--wrapper {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
 }

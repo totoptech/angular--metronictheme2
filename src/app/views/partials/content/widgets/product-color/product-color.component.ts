@@ -13,10 +13,9 @@ export class ProductColorComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-	if(!this.active) this.active = true;
+	if(!this.active) this.active = false;
 	if(!this.color) this.className=undefined;
 	else this.className="kt-product-color__"+this.color;
-	console.log(this.color, this.className);
   }
 
 }
