@@ -1,0 +1,23 @@
+.product-overview-upload__wrapper {
+	display: flex;
+	margin: 4px 16px;
+}
+
+.product-overview-upload-colors__wrapper {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	padding: 6px;
+}
+
+.colors__container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.prodict-overview-upload-design__wrapper {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #ccc;
+}

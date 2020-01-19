@@ -69,7 +69,8 @@ import { RouterModule } from '@angular/router';
 		ProductDetailViewComponent,
 		ProductSelectBoxComponent,
 		ProductDetailsRightComponent,
-		SlaiteRoundButtonComponent
+		SlaiteRoundButtonComponent,
+		ProductColorComponent
 	],
 	imports: [
 		CommonModule,
