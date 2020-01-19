@@ -21,6 +21,7 @@ import { ProductWrapperDefaultComponent } from './product-wrapper-default/produc
 import { ProductCategoryViewComponent } from './product-category-view/product-category-view.component';
 import { ProductShapeViewComponent } from './product-shape-view/product-shape-view.component';
 import { ProductDetailViewComponent } from './product-detail-view/product-detail-view.component';
+import { ProductColorComponent } from './product-color/product-color.component';
 
 @NgModule({
 	declarations: [
@@ -40,7 +41,8 @@ import { ProductDetailViewComponent } from './product-detail-view/product-detail
 		ProductWrapperDefaultComponent,
 		ProductCategoryViewComponent,
 		ProductShapeViewComponent,
-		ProductDetailViewComponent
+		ProductDetailViewComponent,
+		ProductColorComponent
 	],
 	exports: [
 		DataTableComponent,

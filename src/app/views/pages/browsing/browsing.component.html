@@ -48,6 +48,14 @@
 		</div>
 		<div class="kt-product-wrapper__default">
 			<kt-product-category-view *ngFor='let product_catetory of category_list'  [imgSrc]='"assets/media/bg/bg-1.jpg"' [productCatetory]='product_catetory' ></kt-product-category-view>
+			<kt-product-detail-view [imgSrc]='"assets/media/blog/blog1.jpg"'
+			 label="Fruit Of The Loom Heavy Cotton T-Shirt"
+			 startingPrice="$10.95"
+			 availableSize="S-5XL"
+			 serial="393OR"
+			 [colors]="['red', 'blue', 'green', 'chartreuse']"
+			 >
+			 </kt-product-detail-view>
 		</div>
     </div>
 </div>
