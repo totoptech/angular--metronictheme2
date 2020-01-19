@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'kt-product-details-right',
@@ -9,7 +10,15 @@ export class ProductDetailsRightComponent implements OnInit {
 
 	colors: string[];
 	sizes: string[];
-  constructor() { }
+	router:Router;
+  constructor(private route: Router) {
+	this.router = route;
+  }
+
+  gotoDesign() {
+	  console.log("hello:", this.router);
+	// this.router.navigate(['/catalogue/overview']);
+  }
   ngOnInit() {
 	this.colors = [
 		'white',

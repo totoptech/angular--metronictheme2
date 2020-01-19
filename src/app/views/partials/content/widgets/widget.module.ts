@@ -25,6 +25,7 @@ import { ProductColorComponent } from './product-color/product-color.component';
 import { ProductSelectBoxComponent } from './product-select-box/product-select-box.component';
 import { ProductDetailsRightComponent } from './product-details-right/product-details-right.component';
 import { SlaiteRoundButtonComponent } from './slaite-round-button/slaite-round-button.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
 	declarations: [
@@ -51,6 +52,7 @@ import { SlaiteRoundButtonComponent } from './slaite-round-button/slaite-round-b
 		SlaiteRoundButtonComponent
 	],
 	exports: [
+		RouterModule,
 		DataTableComponent,
 		// Widgets
 		Widget1Component,
@@ -79,6 +81,7 @@ import { SlaiteRoundButtonComponent } from './slaite-round-button/slaite-round-b
 		MatProgressSpinnerModule,
 		MatPaginatorModule,
 		MatSortModule,
+		RouterModule,
 	]
 })
 export class WidgetModule {

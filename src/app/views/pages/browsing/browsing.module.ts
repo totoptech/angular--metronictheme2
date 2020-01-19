@@ -36,6 +36,10 @@ import { ProductDetailPageComponent } from './product-detail-page/product-detail
 					{
 						path: 'details',
 						component: ProductDetailPageComponent,
+					},
+					{
+						path: 'overview',
+						loadChildren: () => import('./slaite-product-overview/slaite-product-overview.module').then(m=> m.SlaiteProductOverviewModule)
 					}
 				]
 			}
