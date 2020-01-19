@@ -25,3 +25,14 @@
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 }
+
+.kt-slaite-align__center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.margin-top__20 {
+	margin: 20px 0px;
+}

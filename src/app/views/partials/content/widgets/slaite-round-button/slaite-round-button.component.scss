@@ -1,0 +1,30 @@
+.slaite-round-button__wrapper {
+	min-height: 45px;
+	border-radius: 16px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	background-color: #ECDAC7;
+    max-width: 150px;
+    font-weight: 500;
+    max-height: 50px;
+    padding: 8px 10px;
+}
+
+.slaite-round-button__wrapper:hover {
+	color: #ccc;
+}
+
+.slaite-round-button__light-yello {
+	background-color: #ECDAC7;
+}
+
+.slaite-round-button__white {
+	border: 2px solid #ECDAC7;
+	background-color: white;
+	color: black;
+}
+

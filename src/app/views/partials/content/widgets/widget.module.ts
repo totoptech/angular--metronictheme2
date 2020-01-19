@@ -24,6 +24,7 @@ import { ProductDetailViewComponent } from './product-detail-view/product-detail
 import { ProductColorComponent } from './product-color/product-color.component';
 import { ProductSelectBoxComponent } from './product-select-box/product-select-box.component';
 import { ProductDetailsRightComponent } from './product-details-right/product-details-right.component';
+import { SlaiteRoundButtonComponent } from './slaite-round-button/slaite-round-button.component';
 
 @NgModule({
 	declarations: [
@@ -46,7 +47,8 @@ import { ProductDetailsRightComponent } from './product-details-right/product-de
 		ProductDetailViewComponent,
 		ProductColorComponent,
 		ProductSelectBoxComponent,
-		ProductDetailsRightComponent
+		ProductDetailsRightComponent,
+		SlaiteRoundButtonComponent
 	],
 	exports: [
 		DataTableComponent,
@@ -64,7 +66,8 @@ import { ProductDetailsRightComponent } from './product-details-right/product-de
 		ProductShapeViewComponent,
 		ProductDetailViewComponent,
 		ProductSelectBoxComponent,
-		ProductDetailsRightComponent
+		ProductDetailsRightComponent,
+		SlaiteRoundButtonComponent
 	],
 	imports: [
 		CommonModule,
