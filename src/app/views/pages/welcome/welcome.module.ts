@@ -12,7 +12,6 @@ import { MatIconModule } from '@angular/material/icon';
 
 
 import { MatButtonModule } from "@angular/material";
-import { ProductDetailPageComponent } from './product-detail-page/product-detail-page.component';
 
 @NgModule({
 	imports: [
@@ -25,17 +24,11 @@ import { ProductDetailPageComponent } from './product-detail-page/product-detail
 		RouterModule.forChild([
 			{
 				path: "",
-				component: WelcomeComponent,
-				children: [
-					{
-						path: 'details',
-						component: ProductDetailPageComponent,
-					}
-				]
+				component: WelcomeComponent
 			}
 		])
 	],
 	providers: [],
-	declarations: [WelcomeComponent, ProductDetailPageComponent]
+	declarations: [WelcomeComponent]
 })
 export class WelcomeModule {}
