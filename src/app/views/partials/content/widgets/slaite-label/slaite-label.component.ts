@@ -33,7 +33,7 @@ export class SlaiteLabelComponent implements OnInit {
 		} else {
 			this.param = {
 				text: this.param.text?this.param.text:"Label Component",
-				size: this.param.size?this.param.size:"header",
+				size: this.param.size?this.param.size:"content",
 				color: this.param.color?this.param.color:"primary",
 				textClass: this.param.textClass?this.param.textClass:"",
 				weight: this.param.weight?this.param.weight:"400",

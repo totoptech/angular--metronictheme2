@@ -12,6 +12,7 @@
     font-weight: 500;
     max-height: 50px;
     padding: 8px 10px;
+    min-width: 80px;
 }
 
 .slaite-round-button__wrapper:hover {
@@ -20,6 +21,7 @@
 
 .slaite-round-button__light-yello {
 	background-color: #ECDAC7;
+	color: #fff;
 }
 
 .slaite-round-button__white {
@@ -28,3 +30,10 @@
 	color: black;
 }
 
+.kt-slaite-label_steps {
+	font-weight: 500;
+}
+
+.kt-slaite-label_steps:hover {
+	color: #0056AC;
+}
