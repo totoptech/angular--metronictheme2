@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export interface Params {
 	text: string;				// Content of Label
 	size?: string;				// Size of Text (header, title, para, content)
-	color?: string;				// primary(black), gray, blue, danger, red, light-blue
+	color?: string;				// primary(black), gray, blue, danger, red, light-blue, yellow
 	textClass?: string;			// class name of reusable component
 	weight?: string;			// font-weight 400, 500, 600,
 }
