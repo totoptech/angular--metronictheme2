@@ -9,6 +9,7 @@ export class ProductColorComponent implements OnInit {
 
 	@Input() active: boolean;
 	@Input() color: string;
+	@Input() label?: string;
 	className: string;
   constructor() { }
 

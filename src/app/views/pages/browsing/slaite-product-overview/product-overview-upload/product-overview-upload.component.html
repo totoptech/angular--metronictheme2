@@ -2,7 +2,7 @@
 	<div class="col-lg-3 product-overview-upload-colors__wrapper">
 		<kt-slaite-label [param]='{text: "T-Shirt Colours", size: "para"}' ></kt-slaite-label>
 		<div class="colors__container">
-			<kt-product-color *ngFor='let item of colors' [color]='item'></kt-product-color>
+			<kt-product-color class="kt-product-overview__color-wrapper" *ngFor='let item of colors' [color]='item' [label]='item'></kt-product-color>
 		</div>
 	</div>
 	<div class="col-lg-9 prodict-overview-upload-design__wrapper">
