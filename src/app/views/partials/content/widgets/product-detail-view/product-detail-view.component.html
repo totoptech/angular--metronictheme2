@@ -1,0 +1,16 @@
+<div class="kt-product_detail--view" (click)="gotoDetails()">
+	<img alt='product image' src='{{imgSrc}}' class="kt-product_detail--image" />
+	<div class="kt-product_detail--wrapper">
+		<label class="kt-product_detail--name">{{label}}</label>
+		<label class="kt-product_detail--serial">{{serial}}</label>
+	</div>
+	<div class="kt-product_detiail--ex">
+		<label class="kt-product_detail--startingat"> From {{startingPrice}}</label>
+		<label class="kt-product_detail--size">Available Sizes: {{availableSize}}</label>
+	</div>
+	<div class="kt-product_detail--colors">
+		<kt-product-color *ngFor='let item of colors' [color]='item'>
+
+		</kt-product-color>
+	</div>
+</div>

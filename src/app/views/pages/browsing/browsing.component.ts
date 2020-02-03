@@ -168,15 +168,23 @@ export class DynamicDataSource {
 })
 export class BrowsingComponent implements OnInit {
   panelOpenState: boolean = false;
+  category_list: string[];
   constructor(
-      private layoutconfigService: LayoutConfigService, 
+      private layoutconfigService: LayoutConfigService,
       database: DynamicDatabase
     )
   {
       this.treeControl = new FlatTreeControl<DynamicFlatNode>(this.getLevel, this.isExpandable);
       this.dataSource = new DynamicDataSource(this.treeControl, database);
 
-      this.dataSource.data = database.initialData();
+	  this.dataSource.data = database.initialData();
+	  this.category_list = [
+		"Men's Clothing",
+		"Women's Clothing",
+		"Team Wear",
+		"Hats",
+		"Accessories",
+	  ]
   }
   treeControl: FlatTreeControl<DynamicFlatNode>;
 

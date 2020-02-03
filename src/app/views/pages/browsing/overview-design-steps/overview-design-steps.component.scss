@@ -1,0 +1,39 @@
+
+@media (min-width: 1024px) {
+	.kt-overview-design-steps__wrapper {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		padding: 4px 16px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.kt-overview-design-steps__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		padding: 4px 16px;
+	}
+}
+
+.kt-steps__wrapper {
+	display: flex;
+    align-items: center;
+}
+
+.kt-steps-button__wrapper {
+	display: flex;
+    align-items: center;
+}
+
+.kt-steps-button {
+	margin: 0px 8px;
+}
+
+.icon-arrow__right {
+	margin: 0px 4px;
+	max-height: 20px;
+}

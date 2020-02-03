@@ -12,9 +12,10 @@ import {
   MatExpansionModule,
   MatButtonModule,
 } from '@angular/material';
+import { ProductDetailPageComponent } from './product-detail-page/product-detail-page.component';
 
 @NgModule({
-  declarations: [BrowsingComponent],
+  declarations: [BrowsingComponent, ProductDetailPageComponent],
   imports: [
     CommonModule,
     MatExpansionModule,
@@ -27,7 +28,20 @@ import {
     RouterModule.forChild([
 			{
 				path: "",
-				component: BrowsingComponent
+				children: [
+					{
+						path: "",
+						component: BrowsingComponent,
+					},
+					{
+						path: 'details',
+						component: ProductDetailPageComponent,
+					},
+					{
+						path: 'overview',
+						loadChildren: () => import('./slaite-product-overview/slaite-product-overview.module').then(m=> m.SlaiteProductOverviewModule)
+					}
+				]
 			}
 		])
   ],

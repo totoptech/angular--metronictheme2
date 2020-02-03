@@ -1,0 +1,38 @@
+<div class="kt-product-overview--select-color__wrapper">
+	<div class="col-lg-6 kt-product-overview-color-select__wrapper">
+		<div class="kt-separator kt-separator--design"></div>
+	</div>
+	<div class="col-lg-6 kt-product-overview-design-result__wrapper">
+		<div class="kt-section">
+			<div class="kt-section__content">
+				<ngb-tabset [justify]="currentJustify">
+					<ngb-tab title="Front">
+						<ng-template ngbTabContent>
+							<div class="kt-product-image--wrapper_middle">
+								<img class="kt-product-image__size" alt="tshirt front" src="assets/media/products/tshirt.png" />
+								<kt-slaite-label [param]='{text: "Black Heather", weight: "500"}' ></kt-slaite-label>
+								<div class="kt-product-image__label--wrapper">
+									<kt-slaite-label [param]='{text: "Print Quality:", weight: "500"}' ></kt-slaite-label>
+									<kt-slaite-label [param]='{text: "Average:", weight: "500", color: "yellow"}' ></kt-slaite-label>
+								</div>
+							</div>
+						</ng-template>
+					</ngb-tab>
+					<ngb-tab>
+						<ng-template ngbTabTitle>Back</ng-template>
+						<ng-template ngbTabContent>
+							<div class="kt-product-image--wrapper_middle">
+								<img class="kt-product-image__size" alt="tshirt front" src="assets/media/products/shirt_gray_back.png" />
+								<kt-slaite-label [param]='{text: "Black Heather", weight: "500"}' ></kt-slaite-label>
+								<div class="kt-product-image__label--wrapper">
+									<kt-slaite-label [param]='{text: "Print Quality:", weight: "500"}' ></kt-slaite-label>
+									<kt-slaite-label [param]='{text: "Average:", weight: "500", color: "yellow"}' ></kt-slaite-label>
+								</div>
+							</div>
+						</ng-template>
+					</ngb-tab>
+				</ngb-tabset>
+			</div>
+			</div>
+	</div>
+</div>

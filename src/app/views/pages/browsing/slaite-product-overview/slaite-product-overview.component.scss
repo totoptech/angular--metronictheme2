@@ -1,0 +1,11 @@
+.kt-slaite-product-overview__upload-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 24px 12px;
+    min-height: calc(100vh - 400px);
+    justify-content: space-between;
+}
+
+.kt-product-overview__title {
+	padding: 8px 25%;
+}

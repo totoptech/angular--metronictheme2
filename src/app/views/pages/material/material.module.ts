@@ -243,7 +243,7 @@ const routes: Routes = [
 			{
 				path: 'data-table/table',
 				component: MaterialTableComponent
-			}
+			},
 		]
 	}
 ];
@@ -315,6 +315,7 @@ const routes: Routes = [
 	],
 	declarations: [
 		MaterialComponent,
+		// SlaiteLabelComponent,
 		AutocompleteComponent,
 		CheckboxComponent,
 		DatepickerComponent,
@@ -354,7 +355,7 @@ const routes: Routes = [
 		TreeComponent,
 		BottomSheetComponent,
 		BottomSheetExampleComponent,
-		RipplesComponent
+		RipplesComponent,
 	]
 })
 export class MaterialModule {}

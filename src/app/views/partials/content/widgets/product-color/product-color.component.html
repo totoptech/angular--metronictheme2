@@ -1,0 +1,8 @@
+<div [className]='className?className:"kt-product-color__wrapper"'>
+	<div class="white-round__wrapper">
+		<div class="kt-product-color__active" *ngIf="active">
+			&#10003;
+		</div>
+	</div>
+</div>
+<kt-slaite-label *ngIf='label' [param]='{text: label, size: "content"}' ></kt-slaite-label>
